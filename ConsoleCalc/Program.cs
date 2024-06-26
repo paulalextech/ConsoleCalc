@@ -22,8 +22,35 @@ class Calculator
 
             switch(operation);
             {
+                case "+":
+                    result = num1 + num2;
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    break;
+                case "*":
+                    result = num1 * num2;
+                    break;
+                case "/":
+                    if(num2 != 0)
+                    {
+                        result = num1 / num2;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Division by zero is not allowed");
+                        continue;
+                    }
+                    break;
+                default:
+                    Console.WriteLine:("Invalid operator.");
+                    continue;
                 
             }
+
+            Console.WriteLine($"Result: {result}");
+            Console.WriteLine("Do you want to perform another operation? (yes/no)");
+            keepRunning = Console.ReadLine().ToLower() == "yes";
         }
     }
 }
