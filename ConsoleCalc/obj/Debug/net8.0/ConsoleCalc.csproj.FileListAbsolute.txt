@@ -1,0 +1,4 @@
+/Users/paulsteane/Desktop/ConsoleCalc/ConsoleCalc/obj/Debug/net8.0/ConsoleCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/paulsteane/Desktop/ConsoleCalc/ConsoleCalc/obj/Debug/net8.0/ConsoleCalc.AssemblyInfoInputs.cache
+/Users/paulsteane/Desktop/ConsoleCalc/ConsoleCalc/obj/Debug/net8.0/ConsoleCalc.AssemblyInfo.cs
+/Users/paulsteane/Desktop/ConsoleCalc/ConsoleCalc/obj/Debug/net8.0/ConsoleCalc.csproj.CoreCompileInputs.cache
